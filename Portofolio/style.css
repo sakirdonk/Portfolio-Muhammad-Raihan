@@ -1,0 +1,107 @@
+body{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    font-family: 'Gotham-medium', 'sans-serif';
+    background-color: black;
+    color: white;
+    padding: 0 10rem;
+    align-items: center;
+    height: 43rem;
+    justify-content: space-between;
+}
+
+p{
+    margin: 0px;
+    text-align: justify;
+}
+
+#name{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#major{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#bio{
+    margin-bottom: 3rem;
+}
+
+#leftside{
+    width: 40%;
+}
+
+#rightside{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    text-decoration: underline;
+    margin-bottom: 3rem;
+}
+
+#contact{
+    font-size: 2rem;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+img{
+    width: 10rem;
+}
+
+h3{
+    margin: 0px;
+}
+
+.icon{
+    width: 1rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+a{
+    padding: 1rem;
+    border-radius: 20px;
+    margin-right: 2rem;
+}
+
+.media{
+    width: 3rem;
+}
